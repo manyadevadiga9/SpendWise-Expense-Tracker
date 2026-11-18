@@ -170,8 +170,7 @@ useEffect(() => {
   };
 
   return (
-    <BrowserRouter>
-      {currentUser ? (
+<BrowserRouter basename="/SpendWise-Expense-Tracker">      {currentUser ? (
         <div className="app-container">
           <Sidebar
             onLogout={handleLogout}
